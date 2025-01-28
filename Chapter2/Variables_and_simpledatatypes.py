@@ -61,3 +61,19 @@ fav_language = 'R is my fav. '
 print(fav_language.rstrip())
 
 
+#another method is the removal of prefix
+nostarch_url = 'https://nostarch.com'
+print(nostarch_url.removeprefix('https://'))
+
+#intergers and floats
+print(4/2) #note that it'll end up as a float of 2.0
+
+#tip: when using big numbers in python use underscores as commas as underscores will usually be ignored
+universe_age = 140_000_000 #commas will result into (140,0,0) so its used as a different funtion all together!
+print(universe_age)
+
+#constant 
+MAX_CONNECTIONS = 5000 #a constant is a variable whose value stays the same thoughout the life of a program. All capital letters to indicate a variable should be treated as a constant and never be changed. 
+
+print(MAX_CONNECTIONS)
+
