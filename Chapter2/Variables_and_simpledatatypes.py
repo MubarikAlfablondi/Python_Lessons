@@ -38,4 +38,26 @@ print(full_name)
 
 #the f is called an f-string. The f is for format, because python formats the string by replacing the name of any variable in braces with its value. 
 
+first_name = "mubarik"
+last_name = "alfablondi"
+full_name = f"{first_name} {last_name}"
+print(f"hello, {full_name.title()}")
+
+#I can also use f-strings to compose a message, and then assign the entire message to a variable
+
+first_name = "mubarik"
+last_name = "alfablondi"
+full_name = f"{first_name} {last_name}"
+message = f"Hello, {full_name.title()}"
+print(message)
+#Placing a tab upon my python code
+print("\tPython")
+#adding a new line
+print("this\nis a test\n on new lines")
+#Note: i can also combine the two \n\t for tab and new line in a print funtion
+
+#r.strip method able to take away the extra space your needing within left right or both sides.
+fav_language = 'R is my fav. '
+print(fav_language.rstrip())
+
 
